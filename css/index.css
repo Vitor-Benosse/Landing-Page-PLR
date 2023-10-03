@@ -140,3 +140,73 @@ body {
     object-fit: cover;
     border-radius: 30px;
 }
+
+.comments-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.comments-container .comment-card-item {
+    padding: 24px;
+    border: 1px var(--primary-light);
+    border-style: solid;
+}
+
+
+.comments-container .comment-card-item .comment-content-item{
+    font-size: 18px;
+    color: var(--secondary);
+    font-weight: normal;
+}
+
+.comments-container .comment-card-item .comment-user-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+.comments-container .comment-card-item .comment-user-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary);
+    margin-top: 16px;
+}
+
+.steps-container-fluid {
+    background-color: var(--primary-light);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.steps-container-fluid .steps-img {
+    margin-bottom: 16px;
+}
+
+.steps-container-fluid .steps-description {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.cta-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.cta-container .cta-title{
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.cta-container .cta-price-text{
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--secondary);
+}
+
+.cta-container .cta-span-bold{
+    font-weight: bold;
+}
